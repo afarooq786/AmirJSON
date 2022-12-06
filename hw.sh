@@ -1,4 +1,4 @@
 #!/bin/zsh
-jq
-var oldage = homework.json.filter(person => person.age === '25');
-console.log(oldage);
+var people = homework.json;
+var filter = people.filter(age === 25);
+console.log(filter);
