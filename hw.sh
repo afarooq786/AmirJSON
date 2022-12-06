@@ -1,2 +1,2 @@
 #!/bin/zsh
-jq ' .[].age | add' homework.json
+jq ' [.[].age] | add' homework.json
