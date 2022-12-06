@@ -1,2 +1,2 @@
 #!/bin/zsh
-jq 'map(select(.age == 25))' homework.json
+jq 'map(del(.first,.last))' homework.json
