@@ -1,2 +1,2 @@
 #!/bin/zsh
-jq ' .[2]' homework.json
+jq ' .first[2]' homework.json
