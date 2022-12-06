@@ -1,2 +1,3 @@
 #!/bin/zsh
-jq ' .first[2]' homework.json
+people = homework.json
+jq people.filter(person => person.age === 25);
